@@ -49,7 +49,7 @@ From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nt
 ![image](https://github.com/user-attachments/assets/7d07bb1a-4d4b-4bab-898c-911e014c72d6)
 
 <p>
-Install "osTicket v1.15.8". From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”. Reload IIS (Open IIS, Stop and Start the server). Go to sites -> Default -> osTicket, On the right, click “Browse *:80”. 
+Install "osTicket v1.15.8". From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, Rename the folder “upload” to “osTicket”. Reload IIS (Open IIS, Stop and Start the server). Go to sites -> Default Web Sit -> osTicket, On the right, click “Browse *:80”. 
 </p>
 <br />
 
