@@ -49,7 +49,7 @@ From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nt
 ![image](https://github.com/user-attachments/assets/7d07bb1a-4d4b-4bab-898c-911e014c72d6)
 
 <p>
-Install "osTicket v1.15.8". From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, Rename the folder “upload” to “osTicket”. Reload IIS (Open IIS, Stop and Start the server). Go to sites -> Default Web Sit -> osTicket, On the right, click “Browse *:80”. 
+Install "osTicket v1.15.8". From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, Rename the folder “upload” to “osTicket”. Reload IIS (Open IIS, Stop and Start the server). Go to sites -> Default Web Sit -> osTicket, On the right, click “Browse *:80”. If all is done correctly, you must be able to open the osTicket site in your browser (ISS).
 </p>
 <br />
 
@@ -57,7 +57,7 @@ Install "osTicket v1.15.8". From the “osTicket-Installation-Files” folder, u
 ![image](https://github.com/user-attachments/assets/ed647679-bf53-439e-93e4-c73ea4c39859)
 
 <p>
-Note that some extensions are not enabled. Go back to IIS, sites -> Default -> osTicket. Double-click PHP Manager. Click “Enable or disable an extension” (Enable: php_imap.dll ,Enable: php_intl.dll, Enable: php_opcache.dll). 
+Notice that some extensions are not enabled. Go back to IIS, Sites -> Default Web Site -> osTicket. Double-click PHP Manager. Click “Enable or disable an extension” (Enable: php_imap.dll ,Enable: php_intl.dll, Enable: php_opcache.dll). 
 
 </p>
 <br />
