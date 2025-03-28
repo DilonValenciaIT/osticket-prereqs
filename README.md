@@ -80,34 +80,37 @@ Rename: "ost-config.php" (From: "C:\inetpub\wwwroot\osTicket\include\ost-samplec
 ![image](https://github.com/user-attachments/assets/97f57258-e6e5-4c00-be07-105bc7ba44de)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Continue Setting up osTicket in the browser (click Continue). Name Helpdesk. Default email (receives email from customers).
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/e4eb2c70-693b-473f-bf7f-6f113bc27759)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the “osTicket-Installation-Files” folder, install HeidiSQL (https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit). Open Heidi SQL. Create a new session, root/root. Connect to the session. Create a database called “osTicket”. 
+
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/fe7600c0-f412-42ec-a470-9ab5cef152ee)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Continue Setting up osTicket in the browser. MySQL Database: osTicket. MySQL Username: root. MySQL Password: root. Click “Install Now!”. 
+
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/bfef09d6-c5cb-435b-ae73-37253e8a5e1e)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Congratulations, hopefully it is installed with no errors! Browse to your help desk login page:
+http://localhost/osTicket/scp/login.php 
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/013f48ca-3eaa-42f3-a6a7-dd6b30dd382d)
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+End Users osTicket URL: "http://localhost/osTicket/". Clean up: Delete: C:\inetpub\wwwroot\osTicket\setup, Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 </p>
 <br />
