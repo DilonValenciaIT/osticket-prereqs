@@ -49,7 +49,7 @@ From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 (php-7.3.8-nt
 ![image](https://github.com/user-attachments/assets/7d07bb1a-4d4b-4bab-898c-911e014c72d6)
 
 <p>
-Install "osTicket v1.15.8". From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, Rename the folder “upload” to “osTicket”. Reload IIS (Open IIS, Stop and Start the server). Go to sites -> Default Web Sit -> osTicket, On the right, click “Browse *:80”. If all is done correctly, you must be able to open the osTicket site in your browser (ISS).
+Install "osTicket v1.15.8". From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, Rename the folder “upload” to “osTicket”. Reload IIS (Open IIS, Stop and Start the server). Go to sites -> Default Web Sit -> osTicket, On the right, click “Browse *:80”. If all is done correctly, you must be able to open the osTicket site in your IIS browser.
 </p>
 <br />
 
@@ -66,14 +66,14 @@ Notice that some extensions are not enabled. Go back to IIS, Sites -> Default We
 ![image](https://github.com/user-attachments/assets/28969299-b981-4cc1-b57f-2062e5bfbd89)
 
 <p>
-Refresh the osTicket site in your browser, observe the changes.
+Refresh the osTicket site in your browser, and observe the changes.
 </p>
 <br />
 
 ![image](https://github.com/user-attachments/assets/92471705-bc6a-4dd6-91e2-0eabe22e78db)
 
 <p>
-Rename: "ost-config.php" (From: "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php". To: "C:\inetpub\wwwroot\osTicket\include\ost-config.php"). Assign Permissions: ost-config.php (Disable inheritance -> Remove All, New Permissions -> Everyone -> All).
+Next rename: "ost-config.php" (From: "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php". To: "C:\inetpub\wwwroot\osTicket\include\ost-config.php"). Assign Permissions: ost-config.php (Disable inheritance -> Remove All inherited permissions, Click add to New Permissions ->type: Everyone -> All). This makes osTicket have full control of the configuration file.
 
 </p>
 <br />
@@ -81,7 +81,7 @@ Rename: "ost-config.php" (From: "C:\inetpub\wwwroot\osTicket\include\ost-samplec
 ![image](https://github.com/user-attachments/assets/97f57258-e6e5-4c00-be07-105bc7ba44de)
 
 <p>
-Continue Setting up osTicket in the browser (click Continue). Name Helpdesk. Default email (receives email from customers).
+Continue Setting up osTicket in the browser (click Continue). Name Helpdesk (ex: Dilon's Help Desk). Default email (receives email from customers).
 </p>
 <br />
 
