@@ -81,7 +81,7 @@ Next rename: "ost-config.php" (From: "C:\inetpub\wwwroot\osTicket\include\ost-sa
 ![image](https://github.com/user-attachments/assets/97f57258-e6e5-4c00-be07-105bc7ba44de)
 
 <p>
-Continue Setting up osTicket in the browser (click Continue). Name Helpdesk (ex: Dilon's Help Desk). Default email (receives email from customers).
+Continue Setting up osTicket in the browser (click Continue). Name Helpdesk (ex: Dilon's Help Desk). Default email (receives email from customers). From the Admin User put you First and Last name, then use a different Email Address compared to Helpdesk. Then use username: adminuser, and password: Password1!
 </p>
 <br />
 
