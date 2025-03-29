@@ -88,7 +88,7 @@ Continue Setting up osTicket in the browser (click Continue). Name Helpdesk (ex:
 ![image](https://github.com/user-attachments/assets/e4eb2c70-693b-473f-bf7f-6f113bc27759)
 
 <p>
-From the “osTicket-Installation-Files” folder, install HeidiSQL (https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit). Open Heidi SQL. Create a new session, root/root. Connect to the session. Create a database called “osTicket”. 
+From the “osTicket-Installation-Files” folder, install HeidiSQL (https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit). Open Heidi SQL. Create a new session, user: root/ pass: root. Connect to the session. Create a database called “osTicket”. To do that, right-click the Unnamed (w/ Dolphin icon), select "Create New" then "Database", name it "osTicket", then hit OK.
 
 </p>
 <br />
