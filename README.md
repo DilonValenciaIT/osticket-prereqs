@@ -11,7 +11,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Microsoft Remote Desktop (RDP)
 - Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
@@ -20,11 +20,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Azure Vrtual Machine
+- osTicket Installation files
+- Heidi SQL
+  
 
 
 <h2>Installation Steps</h2>
@@ -32,7 +31,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![image](https://github.com/user-attachments/assets/df81e24f-e702-46f0-a5de-f906c70d4fbb)
 
 <p>
-To get started, start by creating an Azure Virtual Machine with a Windows 10 operating system and 4 vCPUS. Name this VM the "osticket-vm", using the username (labuser) and password (osTicketPassword1!). Let's place this in the "osTicket" Resource group. With the username and password we will now be logging into the VM with Remote Desktop Connection using the VMs IP address. Within the VM (osticket-vm), download osTicket-Installation-Files.zip (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it into the desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
+Hello and welcome to my first step-by-step IT tutorial. To get started, creat an Azure Virtual Machine with a Windows 10 operating system and 4 vCPUS. In this case I'd name this VM the "osticket-vm". Using the username (labuser) and password (osTicketPassword1!). Place this in the "osTicket" Resource group. With the username and password, log into the VM with Remote Desktop Connection using the VM's IP address. Within the VM (osticket-vm), download osTicket-Installation-Files.zip (https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD) and unzip it into the desktop. The folder should be called “osTicket-Installation-Files”. We will use the files in this folder to install osTicket and some of the dependencies.
 </p>
 <br />
 
