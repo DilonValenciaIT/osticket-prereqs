@@ -71,7 +71,7 @@ Some extensions may not be enabled. To resolve this, return to IIS and navigate 
 ![image](https://github.com/user-attachments/assets/28969299-b981-4cc1-b57f-2062e5bfbd89)
 
 <p>
-Refresh the osTicket site in your browser, and observe the changes.
+Refresh the osTicket site in the browser and observe the changes.
 </p>
 <br />
 
