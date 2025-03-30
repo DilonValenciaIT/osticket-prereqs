@@ -80,7 +80,7 @@ Refresh the osTicket site in the browser and observe the changes.
 <p>
 Next, rename the file 'ost-sampleconfig.php' located in 'C:\inetpub\wwwroot\osTicket\include' to 'ost-config.php.'
 
-Then, assign the necessary permissions to 'ost-config.php.' Disable inheritance and remove all inherited permissions. Click 'Add' to create new permissions, then enter 'Everyone' and grant full control. This ensures that osTicket has full control over the configuration file
+Then, assign the necessary permissions to 'ost-config.php.' Disable inheritance and remove all inherited permissions. Click 'Add' to create new permissions, then enter 'Everyone' and grant full control. This ensures that osTicket has full control over the configuration file.
 
 </p>
 <br />
